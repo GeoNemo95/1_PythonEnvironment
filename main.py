@@ -1,7 +1,9 @@
 from rectangle import Rectangle     
 
 def main():
-    box = Rectangle(5.0, 3.0)
+    box = Rectangle(5.0, 3.0) 
+    
+    breakpoint() #
 
     print("Valid Rectangle")
     print(f"Length: {box.get_length()}")
